@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>/Applications/Anki.app</string>
+	<key>CFBundleIdentifier</key>
+	<string>arkhandir.LaunchBar.action.AnkiSearch</string>
+	<key>CFBundleName</key>
+	<string>Anki Search</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>arkhandir</string>
+		<key>LBRequiredApplication</key>
+		<string>net.ankiweb.anki</string>
+		<key>LBSummary</key>
+		<string>Search Anki's card browser via the AnkiConnect add-on. ⇧ ↩ = show setup help</string>
+		<key>LBUpdateURL</key>
+		<string>https://raw.githubusercontent.com/arkhandir/Anki-Search/refs/heads/main/Anki%20Search.lbaction/Contents/Info.plist</string>
+		<key>LBWebsiteURL</key>
+		<string>https://github.com/arkhandir/Anki-Search</string>
+	</dict>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBRequiresArgument</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+	<key>LBTextInputTitle</key>
+	<string>Search Anki</string>
+</dict>
+</plist>
