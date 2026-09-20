@@ -16,6 +16,8 @@
 	<dict>
 		<key>LBAuthor</key>
 		<string>arkhandir</string>
+		<key>LBDownloadURL</key>
+		<string>https://github.com/arkhandir/Anki-Search/releases/download/v1.0.0/Anki-Search-1.0.0.zip</string>
 		<key>LBRequiredApplication</key>
 		<string>net.ankiweb.anki</string>
 		<key>LBSummary</key>
